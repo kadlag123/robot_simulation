@@ -10,14 +10,14 @@
 ## Build
 Build all the packages by running this inside your workspace
 ```sh
-$ catkin build igvc_arena
+$ catkin build line_follower
 $ source devel/setup.bash
 ```
 
 ## Extract model files
 Extract models.zip to home/.gazebo/
 ```sh
-$ roscd igvc_arena
+$ roscd line_follower
 $ unzip models.zip -d ~/.gazebo/models/
 ```
 
