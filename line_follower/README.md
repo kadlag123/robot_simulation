@@ -21,6 +21,12 @@ $ roscd line_follower
 $ unzip models.zip -d ~/.gazebo/models/
 ```
 
+## Launch the world
+This will create an empty world and spawn both mobile_robot and arena
+```sh
+$ roslaunch line_follower arena.launch
+```
+
 ## Utilities
 Teleop twist keyboard:
 ```sh
