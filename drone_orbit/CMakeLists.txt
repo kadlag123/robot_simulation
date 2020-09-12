@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(iarc_arena)
+project(drone_orbit)
 
 set(CMAKE_CXX_FLAGS "-fpermissive -std=c++0x")
 

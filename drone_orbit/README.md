@@ -1,4 +1,4 @@
-# IARC SIMULATION ENVIRONMENT
+# DRONE ORBIT
 ![](../images/logo.jpg)
 
 ## Prerequisites
@@ -31,9 +31,17 @@ $ catkin build
 ```
 
 ### Running the package
-- In one terminal run this command to launch an empty world with a hector_quadrotor:
+- To launch the practice arena along and spawn the hector_quadrotor at the same time use:
 ```sh	
-$ roslaunch hector_quadrotor_gazebo quadrotor_empty_world.launch
+$ roslaunch drone_orbit practice_arena_with_drone.launch
+```		
+- Sometimes the above doesn't work. Then launch the practice arena first using:
+```sh	
+$ roslaunch drone_orbit practice_arena.launch
+```		
+- Then, spawn the hector_quadrotor using:
+```sh	
+$ roslaunch hector_quadrotor_gazebo spawn_quadrotor_with_cam.launch
 ```		
 - Initially the motors are not enabled, to enable run this command in another terminal:
 ```sh
