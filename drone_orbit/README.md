@@ -16,7 +16,7 @@ $ wstool init src https://raw.github.com/tu-darmstadt-ros-pkg/hector_quadrotor/k
 - Install all required dependancies by running this command inside the workspace
 ```sh
 $ sudo apt install ros-<ROSDISTRO>-uuv-simulator
-cd <workspace_name>
+$ cd ~/<workspace_name>
 $ rosdep install --from-paths src --ignore-src -r -y
 ```
 
