@@ -18,13 +18,9 @@
     </include>
 
     <!-- Global light source -->
-    <light type="directional" name="sun">
-      <pose>50 0 150 0 0 0</pose>
-      <diffuse>1 1 1 1</diffuse>
-      <specular>.1 .1 .1 1</specular>
-      <direction>0.3 0.3 -1</direction>
-      <cast_shadows>false</cast_shadows>
-    </light>
+    <include>
+      <uri>model://sun</uri>
+    </include>
 
     <model name="pillion1">
       <static>true</static>
