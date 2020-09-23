@@ -36,4 +36,4 @@ if __name__ == '__main__':
     try:
         talker = Talker()
     except rospy.ROSInterruptException as e:
-        print(e)    
+        print(e)
