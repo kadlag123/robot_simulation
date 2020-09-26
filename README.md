@@ -53,7 +53,7 @@ Well done all the talented members for completing the task ✨
         <img src="https://avatars3.githubusercontent.com/u/42674892?s=460&u=c9e8c0d1fcfc439b0cf0fba6d82f4142573e12e4&v=4" width="100px;" alt=""/><br />
       </a>
       <sub><b>Arnab Paikaray</b></sub>
-      <a href="https://github.com/HarshCasper/Rotten-Scripts/pulls?q=is%3Apr+reviewed-by%3AarnabGudu" title="Reviewed Pull Requests">👀</a>
+      <a href="https://github.com/CYBORG-NIT-ROURKELA/robot_simulation/pulls?q=is%3Apr+reviewed-by%3AarnabGudu" title="Reviewed Pull Requests">👀</a>
       <a href="https://github.com/CYBORG-NIT-ROURKELA/robot_simulation/commits?author=arnabGudu" title="Code">💻</a>
     </td>
 
