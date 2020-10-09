@@ -1,4 +1,7 @@
 # CYBORG ROBOT SIMULATION TASKS 🤖
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 ![](./images/logo.jpg)
 
 ## 📌 Prerequisites
@@ -48,27 +51,12 @@ Well done all the talented members for completing the task ✨
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"> 
-      <a href="https://github.com/arnabGudu">
-        <img src="https://avatars3.githubusercontent.com/u/42674892?s=460&u=c9e8c0d1fcfc439b0cf0fba6d82f4142573e12e4&v=4" width="100px;" alt=""/><br />
-      </a>
-      <sub><b>Arnab Paikaray</b></sub>
-      <a href="https://github.com/CYBORG-NIT-ROURKELA/robot_simulation/pulls?q=is%3Apr+reviewed-by%3AarnabGudu" title="Reviewed Pull Requests">👀</a>
-      <a href="https://github.com/CYBORG-NIT-ROURKELA/robot_simulation/commits?author=arnabGudu" title="Code">💻</a>
-    </td>
-
+    <td align="center"><a href="https://github.com/arnabGudu"><img src="https://avatars1.githubusercontent.com/u/42674892?v=4" width="100px;" alt=""/><br /><sub><b>arnabGudu</b></sub></a><br /><a href="https://github.com/CYBORG-NIT-ROURKELA/robot_simulation/commits?author=arnabGudu" title="Code">💻</a> <a href="https://github.com/CYBORG-NIT-ROURKELA/robot_simulation/commits?author=arnabGudu" title="Documentation">📖</a> <a href="#projectManagement-arnabGudu" title="Project Management">📆</a> <a href="https://github.com/CYBORG-NIT-ROURKELA/robot_simulation/pulls?q=is%3Apr+reviewed-by%3AarnabGudu" title="Reviewed Pull Requests">👀</a> <a href="#maintenance-arnabGudu" title="Maintenance">🚧</a></td>
   </tr>
 </table>
 
-## ❤️ Project Admin
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
-|                                     <a href="https://github.com/arnabGudu"><img src="https://avatars3.githubusercontent.com/u/42674892?s=460&u=c9e8c0d1fcfc439b0cf0fba6d82f4142573e12e4&v=4" width=150px height=150px /></a>                                      |
-| :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                                                      <b>Arnab Paikaray</b>
-
-
-License
-----
-
-MIT
-
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
