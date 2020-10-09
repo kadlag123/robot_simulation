@@ -2,6 +2,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
+
 ![](./images/logo.jpg)
 
 ## 📌 Prerequisites
@@ -60,3 +61,15 @@ Well done all the talented members for completing the task ✨
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+## ❤️ Project Admin	<!-- markdownlint-enable -->
+
+<!-- prettier-ignore-end -->
+
+<a href="https://github.com/arnabGudu"><img src="https://avatars3.githubusercontent.com/u/42674892?s=460&u=c9e8c0d1fcfc439b0cf0fba6d82f4142573e12e4&v=4" width=150px height=150px /></a>        <br> <b>Arnab Paikaray</b>	
+
+
+License	
+----	
+
+MIT
