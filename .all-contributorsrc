@@ -17,6 +17,16 @@
         "review",
         "maintenance"
       ]
+    },
+    {
+      "login": "MrCrazyUnknown",
+      "name": "Mr. Crazy Unknown",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/55598576?v=4",
+      "profile": "https://github.com/MrCrazyUnknown",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
