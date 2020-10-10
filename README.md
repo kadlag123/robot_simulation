@@ -1,6 +1,6 @@
 # CYBORG ROBOT SIMULATION TASKS 🤖
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ![](./images/logo.jpg)
@@ -53,6 +53,7 @@ Well done all the talented members for completing the task ✨
 <table>
   <tr>
     <td align="center"><a href="https://github.com/arnabGudu"><img src="https://avatars1.githubusercontent.com/u/42674892?v=4" width="100px;" alt=""/><br /><sub><b>arnabGudu</b></sub></a><br /><a href="https://github.com/CYBORG-NIT-ROURKELA/robot_simulation/commits?author=arnabGudu" title="Code">💻</a> <a href="https://github.com/CYBORG-NIT-ROURKELA/robot_simulation/commits?author=arnabGudu" title="Documentation">📖</a> <a href="#projectManagement-arnabGudu" title="Project Management">📆</a> <a href="https://github.com/CYBORG-NIT-ROURKELA/robot_simulation/pulls?q=is%3Apr+reviewed-by%3AarnabGudu" title="Reviewed Pull Requests">👀</a> <a href="#maintenance-arnabGudu" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="https://github.com/MrCrazyUnknown"><img src="https://avatars3.githubusercontent.com/u/55598576?v=4" width="100px;" alt=""/><br /><sub><b>Mr. Crazy Unknown</b></sub></a><br /><a href="https://github.com/CYBORG-NIT-ROURKELA/robot_simulation/commits?author=MrCrazyUnknown" title="Code">💻</a> <a href="https://github.com/CYBORG-NIT-ROURKELA/robot_simulation/commits?author=MrCrazyUnknown" title="Documentation">📖</a></td>
   </tr>
 </table>
 
