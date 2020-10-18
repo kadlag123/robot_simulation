@@ -14,6 +14,13 @@ $ catkin build digitizer
 $ source devel/setup.bash
 ```
 
+## Extract model files
+Extract models.zip to home/.gazebo/
+```sh
+$ roscd digitizer
+$ unzip models.zip -d ~/.gazebo/models/
+```
+
 ## Launch the world
 This will create an world with the arena and spawn the mobile_robot
 ```sh
