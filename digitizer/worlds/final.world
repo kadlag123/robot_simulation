@@ -221,6 +221,7 @@
           </material>
         </visual>
         <visual name='base_link_fixed_joint_lump__bolts_visual_1'>
+          <cast_shadows>0</cast_shadows>
           <pose frame=''>-1.1364 -0.74522 0.20829 -3.14159 -0 0</pose>
           <geometry>
             <mesh>
@@ -236,6 +237,7 @@
           </material>
         </visual>
         <visual name='base_link_fixed_joint_lump__metals_visual_2'>
+          <cast_shadows>0</cast_shadows>
           <pose frame=''>-0.9234 0 0 1.5708 -0 0</pose>
           <geometry>
             <mesh>
@@ -251,6 +253,7 @@
           </material>
         </visual>
         <visual name='base_link_fixed_joint_lump__wood_visual_4'>
+          <cast_shadows>0</cast_shadows>
           <pose frame=''>-1.0574 -0.74522 1.0894 1.5708 -0 0</pose>
           <geometry>
             <mesh>
@@ -306,6 +309,7 @@
           </surface>
         </collision>
         <visual name='cam_visual'>
+          <cast_shadows>0</cast_shadows>
           <pose frame=''>0 0 0 0 -0 1.57</pose>
           <geometry>
             <mesh>
