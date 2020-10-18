@@ -11,16 +11,26 @@ for digitizer_platform robot</p>
   <license>BSD</license>
 
   <buildtool_depend>catkin</buildtool_depend>
-  <depend>roslaunch</depend>
+
+  <build_depend>rospy</build_depend>
+  <build_depend>dynamic_reconfigure</build_depend>
+
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>dynamic_reconfigure</build_export_depend>
+
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>dynamic_reconfigure</exec_depend>
+
+  <!-- <depend>roslaunch</depend>
   <depend>robot_state_publisher</depend>
   <depend>rviz</depend>
   <depend>joint_state_publisher</depend>
   <exec_depend>gazebo_ros</exec_depend>
   <exec_depend>gazebo</exec_depend>
-  <exec_depend>gazebo_plugins</exec_depend>
+  <exec_depend>gazebo_plugins</exec_depend> -->
   <export>
-    <architecture_independent />
-    <gazebo_ros plugin_path="${prefix}/lib" gazebo_media_path="${prefix}" gazebo_model_path="${prefix}/models"/>
+    <!-- <architecture_independent />
+    <gazebo_ros plugin_path="${prefix}/lib" gazebo_media_path="${prefix}" gazebo_model_path="${prefix}/models"/> -->
 
   </export>
 </package>
