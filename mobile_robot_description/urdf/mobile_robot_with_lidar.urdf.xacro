@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<robot name="mobile_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <xacro:property name="M_PI" value="3.1415926535897931" />
+
+    <!-- Included URDF Files -->
+    <xacro:include filename="$(find mobile_robot_description)/urdf/mobile_robot_base.urdf.xacro" />
+
+    <!-- Instantiate quadrotor_base_macro once (has no parameters atm) -->
+    <xacro:mobile_robot_base />
+
+    <!-- Lidar -->
+    <xacro:include filename="$(find mobile_robot_description)/urdf/lidar.urdf.xacro" />
+    <xacro:lidar name="laser" parent="base_link" ros_topic="scan" frame_name="base_link" update_rate="40" ray_count="640" min_angle="-90" max_angle="90" min_range="0.05" max_range="4" noise="true">
+      <origin xyz="0.0625 0 0.09" rpy="0 0 0"/>
+      <!-- 0.0625 0.0175 0.09 -->
+    </xacro:lidar>
+
+</robot>

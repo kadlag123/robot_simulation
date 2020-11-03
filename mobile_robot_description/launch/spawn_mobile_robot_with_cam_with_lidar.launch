@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<launch>
+  <arg name="name" default="mobile_robot"/>
+  <arg name="tf_prefix" default="$(optenv ROS_NAMESPACE)"/>
+  <arg name="x" default="0.0"/>
+  <arg name="y" default="0.0"/>
+  <arg name="z" default="0.3"/>
+  <arg name="empty_world" default="false"/>
+
+  <include file="$(find mobile_robot_description)/launch/spawn_mobile_robot.launch">
+    <arg name="name" default="$(arg name)"/>
+    <arg name="model" value="$(find mobile_robot_description)/urdf/mobile_robot_with_cam_with_lidar.urdf.xacro"/>
+    <arg name="tf_prefix" default="$(arg tf_prefix)"/>
+    <arg name="x" default="$(arg x)"/>
+    <arg name="y" default="$(arg y)"/>
+    <arg name="z" default="$(arg z)"/>
+    <arg name="empty_world" default="$(arg empty_world)"/>
+  </include>
+</launch>

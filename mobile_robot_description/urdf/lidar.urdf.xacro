@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:property name="M_PI" value="3.1415926535897931" />
+
+    <xacro:macro name="lidar_model" params="name parent *origin">
+      <joint name="${name}_joint" type="fixed">
+        <xacro:insert_block name="origin" />
+        <parent link="${parent}"/>
+        <child link="${name}_link"/>
+      </joint>
+
+      <gazebo reference="${name}_link">
+        <material>Gazebo/Gray</material>
+      </gazebo>
+
+      <link name="${name}_link">
+        <inertial>
+          <origin xyz="-0.00010901 0.0026156 -0.0091052" rpy="0 0 0" />
+          <mass value="0.2079" />
+          <inertia ixx="0.00016436" ixy="2.8613E-07" ixz="-5.9508E-07" iyy="0.0002078" iyz="-1.0557E-05" izz="9.5562E-05" />
+        </inertial>
+        <visual>
+          <origin xyz="0 0 -0.0115" rpy="${-M_PI/2} 0 ${-M_PI/2}" />
+          <geometry>
+            <mesh filename="package://mobile_robot_description/meshes/lidar/lidar.STL" />
+          </geometry>
+          <material name="">
+            <color rgba="0.79216 0.81961 0.93333 1" />
+            <!-- <texture filename="package://lidar/textures/" /> -->
+          </material>
+        </visual>
+        <collision>
+          <origin xyz="0 0 -0.0115" rpy="{-M_PI/2} 0 ${-M_PI/2}" />
+          <geometry>
+            <mesh filename="package://mobile_robot_description/meshes/lidar/lidar.STL" />
+          </geometry>
+        </collision>
+      </link>
+    </xacro:macro>
+
+    <xacro:macro name="lidar" params="name parent *origin ros_topic frame_name update_rate ray_count min_angle max_angle min_range max_range noise">
+      <xacro:lidar_model name="${name}" parent="${parent}">
+        <xacro:insert_block name="origin" />
+      </xacro:lidar_model>
+
+      <gazebo reference="${name}_link">
+        <sensor type="ray" name="${name}">
+          <always_on>true</always_on>
+          <update_rate>${update_rate}</update_rate>
+          <pose>0 0 0 0 0 0</pose>
+          <visualize>1</visualize>
+          <ray>
+            <scan>
+              <horizontal>
+                <samples>${ray_count}</samples>
+                <resolution>1</resolution>
+                <min_angle>${min_angle * M_PI/180}</min_angle>
+                <max_angle>${max_angle * M_PI/180}</max_angle>
+              </horizontal>
+            </scan>
+            <range>
+              <min>${min_range}</min>
+              <max>${max_range}</max>
+              <resolution>0.01</resolution>
+            </range>
+            <xacro:if value="${noise == 'true'}">
+              <noise>
+                <type>gaussian</type>
+                <mean>0.0</mean>
+                <stddev>0.004</stddev>
+              </noise>
+            </xacro:if>
+          </ray>
+          <plugin name="gazebo_ros_${name}_controller" filename="libgazebo_ros_laser.so">
+            <topicName>${ros_topic}</topicName>
+            <frameName>${frame_name}</frameName>
+          </plugin>
+        </sensor>
+      </gazebo>
+    </xacro:macro>
+</robot>
